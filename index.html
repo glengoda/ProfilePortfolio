@@ -1,0 +1,235 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <Script src="https://kit.fontawesome.com/48fd19d50a.js" crosssorigin="anonymous"></script>
+
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+           <h2><span>T</span>shembho</h2>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu ()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+         <p>SOFTWARE DEVELOPER</p>
+         <h1>Hi, I'm <span>Tshembho</span><br> From South Africa</h1>
+        </div>
+    </div>
+   </div>  
+
+ <!-----------about--------->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/IMG_1305.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <P> I am passionate, innovative young professional and dedicated programmer
+                    with exemplary skills, practical experience acquired on passion for
+                    continuous learning, professional and self-development. I am eager to work
+                    in a challenging environment and believe in teamwork and working together
+                    under pressure to complete projects. I am keen to contribute in a
+                    environment where the culture is pride in operational excellence, eagerness
+                    to invent solutions in the cutting edge technology
+                    </P>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab " id="skills">
+                    <ul>
+                        <li><span>C#</span><br>Methods (with Parameters, Overloading), Classes (Object Oriented Programming)</li>
+                        <li><span>JavaScript</span><br>JavaScript OOP, Functions</li>
+                        <li><span>HTML / CSS </span><br>HTML Forms, CSS structure</li>
+                        <li><span>MYSQL Server</span><br>Database Management,SQL Querying, Database Design,Backup and Recovery</li>
+                        <li><span>Git</span><br>Collaboration and Teamwork, Git Commands, Branching and Workflow</li>
+                        
+
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 February 06 - current</span><br>Software Developer intern<br>
+                            Development and maintenance of projects with ASP.Net, Javascript, C#
+                            and MYSQL.
+                            Test and debug web applications to ensure optimal performance.
+                            Experience working with Object Oriented Programming with C# and
+                            creating, maintaining databases including building database and
+                            validating their stability and efficiency. Creating program views, functions
+                            and stored procedures. Writing optimized SQL queries for integration
+                            with other applications</li>
+                       
+                    </ul>
+                </div>
+                <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>2016</span><br>Matric certificate at Makhado Comprehensive Seconday School</li>
+                        <li><span> 2017 - 2021</span><br> National Diploma at Nelson Mandela University</li>
+                        <li><span>2021 - 2022</span><br>Advanced Diploma at Nelson Mandela University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+   <!----------services------------>
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Software Development</h2>
+                <p>Writing, coding, and creating software applications and  includes web applications, desktop software</p>
+                <a href="https://github.com/glengoda">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Web Development</h2>
+                <p>Creating websites and web applications. They work with technologies such as HTML, CSS, JavaScript, and various web frameworks and libraries</p>
+                <a href="https://github.com/glengoda">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Design and Management</h2>
+                <p>design and maintain databases to store and manage data efficiently. This includes creating database schemas, optimizing queries, and ensuring data security </p>
+                <a href="https://github.com/glengoda">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!----------portfolio------------>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/sql.jpg" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to talented people around the world. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/code.jpeg" >
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to talented people around the world. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/cod3.jpg" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to talented people around the world. </p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+     <!----------contact------------>
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+               <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Glengoda@icloud.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>0646370957</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/tshembho.manganyie?mibextid=LQQJ4d"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/glen_goda/?igshid=MzMyNGUyNmU2YQ%3D%3D"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/tshembho-glen-manganyi-b09bb523b"><i class="fa fa-linkedin-square"></i></a>   
+                    <a href="https://github.com/glengoda"><i class="fa fa-github"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download</a>
+               </div>
+               <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"   rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    <span id="msg"></span>
+                </form>
+               </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169 Tshembho.</p>
+        </div>
+     </div>
+
+
+
+
+   <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+
+   <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+   </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz4IqKUZQ9ZeCVT-4HFEFR-CHTC9PMJ2tXyNuiIRrxQ1ICdLF9RFRKKiZEKhAE7icd1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+</html>
